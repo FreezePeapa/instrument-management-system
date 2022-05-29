@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Instrument Management System</title>
+    <style>     
+
+        #frame1{
+            position: absolute;
+            width: 100%;
+            height: 650px;
+            left: 0px;
+            top: 0px;
+            background-color: #F5C414;
+        }
+        #frame2{
+            position: absolute;
+            width: 100%;
+            height: 102px;
+            left: 0px;
+            top: 650px;
+            background-color: #252525;
+        }
+        #title1{
+            text-align: center;
+            margin: 280px auto;
+            width: 80%;
+
+            color: #F5C414;
+            background-color: #252525;
+            border-style: ridge;
+            border-radius: 50px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 65px;
+            line-height: 79px;
+        }         
+
+        input:hover{
+            cursor: pointer;           
+            border-radius: 30px;
+            background-color: rgba(14, 71, 81, 0.425); 
+        } 
+        input{
+            position: absolute;
+            height: 92px;
+            top: 450px;            
+
+            background: #3A948E;
+            border: 5px solid #726E63;
+            border-radius: 30px;
+
+            color:white;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;/*字體粗細*/
+            font-size: 30px;
+            text-align: center;  
+   
+        } 
+        .ch_btn{     
+            width: 25%;                
+            left:20%;
+            margin-left: -150px; /*水平置中*/
+        }
+        .bor_btn{
+             
+            width: 15%;                   
+            left: 55%;
+            margin-left: -150px; /*水平置中*/
+        }
+        .ret_btn{
+            width: 15%;                 
+            left:80%;   
+           margin-left: -150px; /*水平置中*/        
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="frame1">
+        <h1 id="title1">Instrument Management System</h1>
+
+            <input type="button" value="CHECK INSTRUMENT" class="ch_btn" onclick="location.href='CHECK INSTRUMENT.html'" />
+            <input type="button" value="BORROW" class="bor_btn" onclick="location.href='BORROW1.html'"/>
+            <input type="button" value="RETURN" class="ret_btn" onclick="location.href='RETURN1.html'"/>
+    </div>
+    
+    <div id="frame2"></div>
+
+</body>
+</html>
